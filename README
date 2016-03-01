@@ -1,0 +1,39 @@
+README file - 
+
+
++-------+
+| BUILD |
++-------+
+
+Comments: make
+
++---------+
+|TESTCASES|
++---------+
+
+ The code passes all testcases. 
+ Except -   ./pa1 -det 2147483647 -lambda 10000 -mu 5000
+
+
+
+zip file contains - 
+
+main.c 
+- Processing is done in this file. 
+- Since its event driven, there are 3 events 
+	a. Packet arrives. 
+	b. Packet leaves queue/ Previous packet finishes service. 
+	c. Packet departs from the server. 
+
+mm1.h
+- Header file with required headers. 
+
+Makefile 
+ - used for make.
+
+
+ Please run the scripts according to what the professor has given. 
+ There are no segmentation faults. 
+ There are no warnings. 
+
+
